@@ -54,7 +54,7 @@ Este documento descreve as melhorias de SEO implementadas no site da Temperatura
 
 ---
 
-Desenvolvido por [Seu Nome/Empresa] - [Data]
+Desenvolvido por [Daniel Andrade] - [Março/2025]
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
