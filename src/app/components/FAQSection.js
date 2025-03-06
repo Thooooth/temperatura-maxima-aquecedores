@@ -48,9 +48,8 @@ export default function FAQSection() {
     ];
 
     useEffect(() => {
-        // Contador regressivo para o banner de emergência
         const timer = setInterval(() => {
-            setCountdown(prev => prev > 0 ? prev - 1 : 10);
+            setCountdown(prev => prev > 0 ? prev - 1 : 28800);
         }, 1000);
 
         return () => clearInterval(timer);

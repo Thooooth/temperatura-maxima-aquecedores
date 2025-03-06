@@ -73,14 +73,11 @@ export default function WelcomeSection() {
     }, []);
 
     return (
-        <section className="relative bg-gradient-to-b from-blue-50 to-white py-10 sm:py-16 px-4 overflow-hidden">
-            <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
-                <Image src="/img/pattern-bg.jpg" alt="Background Pattern" layout="fill" objectFit="cover" priority />
-            </div>
+        <section className="relative bg-gradient-to-b from-blue-50 to-white py-10 sm:py-16 px-4 overflow-hidden" style={{ minHeight: '120px', contain: 'layout' }}>
 
             <div className="container mx-auto max-w-6xl">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8">
-                    <div className="w-full lg:w-1/2 text-left">
+                    <div className="w-full lg:w-1/2 text-left" style={{ minHeight: '60px' }}>
                         <div ref={promoRef} className="bg-red-600 text-white p-3 mb-5 rounded-lg opacity-0 text-sm sm:text-base">
                             <div className="flex items-center">
                                 <i className="ri-timer-flash-line text-yellow-300 text-lg sm:text-xl mr-2"></i>

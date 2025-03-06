@@ -97,7 +97,7 @@ export default function Header() {
                     className={`h-auto transition-all duration-300 ${isScrolled ? 'w-48 sm:w-56 md:w-64' : 'w-56 sm:w-64 md:w-72'}`}
                 />
             </div>
-            <nav ref={navRef} className="hidden md:block">
+            <nav ref={navRef} className="hidden md:block min-h-[30px]">
                 <ul className="flex gap-6 lg:gap-8 text-base lg:text-lg font-medium leading-relaxed font-inter">
                     <li className="opacity-0"><a href="#servicos" className="hover:text-yellow-300 transition-colors duration-300">Serviços</a></li>
                     <li className="opacity-0"><a href="#sobre" className="hover:text-yellow-300 transition-colors duration-300">Sobre Nós</a></li>
