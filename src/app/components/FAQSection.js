@@ -5,7 +5,7 @@ import { animate, stagger, inView } from "motion";
 import Image from 'next/image';
 
 export default function FAQSection() {
-    const [openIndex, setOpenIndex] = useState(null);
+    const [openFAQ, setOpenFAQ] = useState(null);
     const [countdown, setCountdown] = useState(10);
     const titleRef = useRef(null);
     const faqsRef = useRef(null);
@@ -100,7 +100,7 @@ export default function FAQSection() {
     }, []);
 
     const toggleFAQ = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
+        setOpenFAQ(openFAQ === index ? null : index);
     };
 
     return (
@@ -119,15 +119,15 @@ export default function FAQSection() {
                         {faqs.map((faq, index) => (
                             <div key={index} className="mb-4 faq-item opacity-0">
                                 <button
-                                    className={`flex justify-between items-center w-full p-5 text-left font-semibold rounded-lg ${openIndex === index ? 'bg-blue-600 text-white' : 'bg-white text-blue-800 hover:bg-blue-100'
+                                    className={`flex justify-between items-center w-full p-5 text-left font-semibold rounded-lg ${openFAQ === index ? 'bg-blue-600 text-white' : 'bg-white text-blue-800 hover:bg-blue-100'
                                         } transition-colors duration-200`}
                                     onClick={() => toggleFAQ(index)}
                                 >
                                     <span className="font-inter">{faq.question}</span>
-                                    <i className={`ri-arrow-down-s-line text-xl transform ${openIndex === index ? 'rotate-180' : ''} transition-transform duration-200`}></i>
+                                    <i className={`ri-arrow-down-s-line text-xl transform ${openFAQ === index ? 'rotate-180' : ''} transition-transform duration-200`}></i>
                                 </button>
                                 <div
-                                    className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                                    className={`overflow-hidden transition-all duration-300 ${openFAQ === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                                         }`}
                                 >
                                     <div className="p-5 bg-white border border-t-0 rounded-b-lg">

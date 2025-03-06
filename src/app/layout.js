@@ -15,6 +15,7 @@ export const metadata = {
   keywords: "aquecedores a gás, instalação de aquecedor, manutenção de aquecedor, conserto de aquecedor, São Paulo, aquecedor de água, assistência técnica, Rinnai, Bosch, Lorenzetti, atendimento emergencial, aquecedor não liga, aquecedor com vazamento",
   authors: [{ name: "Temperatura Máxima Aquecedores" }],
   creator: "Temperatura Máxima Aquecedores",
+  metadataBase: new URL('https://temperaturamaximaaquecedores.com'),
   publisher: "Temperatura Máxima Aquecedores",
   alternates: {
     canonical: 'https://temperaturamaximaaquecedores.com',

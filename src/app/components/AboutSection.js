@@ -127,7 +127,7 @@ export default function AboutSection() {
                                     <div className="bg-blue-100 p-2 rounded-full">
                                         <i className="ri-shield-check-line text-blue-600 text-xl"></i>
                                     </div>
-                                    <h5 className="font-semibold text-gray-800">Segurança Garantida</h5>
+                                    <h4 className="font-semibold text-gray-800">Segurança Garantida</h4>
                                 </div>
                                 <p className="text-gray-600 font-inter">Técnicos certificados e serviços que seguem todas as normas ABNT.</p>
                             </div>
@@ -136,7 +136,7 @@ export default function AboutSection() {
                                     <div className="bg-blue-100 p-2 rounded-full">
                                         <i className="ri-flashlight-line text-blue-600 text-xl"></i>
                                     </div>
-                                    <h5 className="font-semibold text-gray-800">Rapidez no Atendimento</h5>
+                                    <h4 className="font-semibold text-gray-800">Rapidez no Atendimento</h4>
                                 </div>
                                 <p className="text-gray-600 font-inter">Atendimento emergencial em até 30 minutos em toda São Paulo.</p>
                             </div>
@@ -145,7 +145,7 @@ export default function AboutSection() {
                                     <div className="bg-blue-100 p-2 rounded-full">
                                         <i className="ri-customer-service-2-line text-blue-600 text-xl"></i>
                                     </div>
-                                    <h5 className="font-semibold text-gray-800">Suporte 24 horas emergencial</h5>
+                                    <h4 className="font-semibold text-gray-800">Suporte 24 horas emergencial</h4>
                                 </div>
                                 <p className="text-gray-600 font-inter">Atendimento todos os dias, inclusive finais de semana e feriados.</p>
                             </div>
@@ -154,7 +154,7 @@ export default function AboutSection() {
                                     <div className="bg-blue-100 p-2 rounded-full">
                                         <i className="ri-award-line text-blue-600 text-xl"></i>
                                     </div>
-                                    <h5 className="font-semibold text-gray-800">Garantia por Escrito</h5>
+                                    <h4 className="font-semibold text-gray-800">Garantia por Escrito</h4>
                                 </div>
                                 <p className="text-gray-600 font-inter">Todos os serviços com garantia documentada de até 12 meses.</p>
                             </div>
