@@ -1,0 +1,6 @@
+# Permitir todos os robôs de busca
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://temperaturamaximaaquecedores.com/sitemap.xml 
